@@ -28,6 +28,11 @@ body{
 
 
 /* MOBILE */
+main,
+header,
+footer{
+    width: 100vw;
+}
 
  .hero-left--desktop{
     display: none;
@@ -85,6 +90,7 @@ h1{
     margin: 0 12rem;
     border-radius: 5rem;
 }
+
 .vertical-line-1{
     border-left: .1rem solid var(--maintext);
     height: 8rem;
