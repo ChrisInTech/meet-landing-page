@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Red+Hat+Display&display=swap');
+:root{
+    --textcolor_heading: #28283d;
+    --mainbg_secondarytxt: #fafafa;
+    --secondarycolor: #4d96a9;
+    --violettbtn: #855fb1;
+    --maintext: #87879d;
+    --color_hover1: #8fe3f9;
+    --color_hover2: #d9b8ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+html{
+    font-size: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-color: var(--mainbg_secondarytxt);
+}
+h1{
+    font-size: 6.4rem;
+}
+h2{
+    font-size: 4rem;
+    line-height: 4.4rem;
+}
+header p{
+    color: var(--maintext);
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+ article span {
+    color: var(--secondarycolor);
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 900;
+}
+article p{
+    color: var(--maintext);
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+footer{
+    background-color: var(--secondarycolor);
+    color: var(--mainbg_secondarytxt);
+    opacity: 0.5;
+}
+
+
+
+
+
