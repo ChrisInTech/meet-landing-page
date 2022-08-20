@@ -23,27 +23,9 @@ body{
     background-color: var(--mainbg_secondarytxt);
 }
 
-header p{
-    color: var(--maintext);
-    font-size: 1.8rem;
-    line-height: 2.6rem;
-}
- article span {
-    color: var(--secondarycolor);
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    font-weight: 900;
-}
-article p{
-    color: var(--maintext);
-    font-size: 1.8rem;
-    line-height: 2.6rem;
-}
-footer{
-    background-color: var(--secondarycolor);
-    color: var(--mainbg_secondarytxt);
-    opacity: 0.5;
-}
+
+
+
 
 /* MOBILE */
 
@@ -67,6 +49,11 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
 }
+header p{
+    color: var(--maintext);
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
 .container-header 
 h1,
 p{
@@ -84,7 +71,7 @@ h1{
 .download-btn-header{
     background-color: var(--secondarycolor);
     color: var(--mainbg_secondarytxt);
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     margin: 0 10rem;
     border-radius: 5rem;
 }
@@ -94,7 +81,7 @@ h1{
 .question-btn-header{
     background-color: var(--violettbtn);
     color: var(--mainbg_secondarytxt);
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     margin: 0 12rem;
     border-radius: 5rem;
 }
@@ -104,12 +91,14 @@ h1{
     position: relative;
     left: 50%;
     top: 0;
+    margin-top: 3rem;
 }
 .circle-line-1{
     position: relative;
     top: 0;
     left: 45%;
 }
+    
 .circle-line-1 p{
     height: .25rem;
     width: .25rem;
@@ -119,6 +108,112 @@ h1{
     justify-content: center;
     align-items: center;
 }
+figure{
+    height: 35rem;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;  
+    grid-template-areas: 
+    ". ."
+    ". ."; 
+    justify-items: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+figure img{
+    width: 15rem;
+    border-radius: 1rem;
+}
+article{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+article h2{
+    font-size: 3.6rem;
+    padding: 0 3rem;
+    text-align: center;
+}
+article span {
+    color: var(--secondarycolor);
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 900;
+}
+article p{
+    color: var(--maintext);
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+footer{
+    height: 42rem;
+    background-image: url(./assets/mobile/image-footer.jpg);
+    background-size: cover;
+    margin-top: 15rem;
+
+}
+footer h3{
+    font-size: 3.6rem;
+    text-align: center;
+}
+.footer-ctn p{
+    font-size: 1.8rem;
+    
+}
+.footer-ctn{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--mainbg_secondarytxt);
+}
+
+   
+.layer{
+    background-color: var(--secondarycolor);
+    height: 42rem;
+    opacity: 0.8;
+}
+.vertical-line-2{
+    border-left: .1rem solid var(--maintext);
+    height: 8rem;
+    position: relative;
+    left: 50%;
+    top: -10rem;
+    margin-top: 3rem;
+}
+.circle-line-2{
+    position: relative;
+    top: -10rem;
+    left: 45%;
+}
+    
+.circle-line-2 p{
+    height: .25rem;
+    width: .25rem;
+    border: .1rem solid var(--maintext);
+    background-color: var(--mainbg_secondarytxt);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.download-btn-footer{
+    background-color: var(--violettbtn);
+    color: var(--mainbg_secondarytxt);
+    padding: 1.5rem 0;
+    margin: 0 10rem;
+    border-radius: 5rem
+}
+ 
+
+
+
+
+    
     
     
 
