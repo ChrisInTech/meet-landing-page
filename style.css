@@ -40,9 +40,7 @@ header p{
 h1{
     font-size: 4rem;
 }
-.container-btn{
-    display: flex;
-}
+
     
 .download-btn-header{
     background-color: var(--secondarycolor);
@@ -116,8 +114,7 @@ footer h3{
 }
     
 .footer-ctn{
-    display:flex;
-    color: var(--mainbg_secondarytxt);
+    
 }
     
 .layer{
@@ -146,11 +143,7 @@ footer h3{
     justify-content: center;
     align-items: center;
 }
-.download-btn-footer{
-    background-color: var(--violettbtn);
-    color: var(--mainbg_secondarytxt);
-    border-radius: 5rem
-}
+
 
    
     
@@ -184,6 +177,7 @@ footer h3{
         padding: 2rem;  
     }
     .container-btn{
+        display: flex;
         flex-direction: column;
         gap: 1rem;
     }
@@ -231,6 +225,8 @@ footer h3{
         text-align: center;
     }
     .footer-ctn{
+        display:flex;
+        color: var(--mainbg_secondarytxt);
         flex-direction: column;
         justify-content: center;
         margin-top: 5rem;
@@ -243,6 +239,9 @@ footer h3{
     }
        
     .download-btn-footer{
+        background-color: var(--violettbtn);
+        color: var(--mainbg_secondarytxt);
+        border-radius: 5rem;
         padding: 1.5rem 0;
         margin: 0 10rem;
     }
@@ -252,8 +251,17 @@ footer h3{
 
 /* TABLET */
 
-@media only screen and (max-width: 768px){
-    
+@media only screen and (min-width: 768px){
+    .container-btn{
+        flex-direction: row;
+        
+    } 
+    .download-btn-header{
+        padding: 1rem 7rem;
+    }
+    .question-btn-header{
+        padding: 0 5rem;
+    }
 }
 
 
