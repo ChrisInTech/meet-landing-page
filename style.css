@@ -355,6 +355,17 @@ body{
     .container-btn{
         justify-content: center;
     }
+    .download-btn-header,
+    .question-btn-header{
+        border: none;
+    }
+    .question-btn-header:hover{
+        background-color: var(--color_hover2);
+
+    }
+    .download-btn-header:hover{
+        background-color: #71C0D4;
+    }
     figure img{
         width: 25rem;
         height: auto;
@@ -380,12 +391,17 @@ body{
         width: 30rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
+        border: none;
+    }
+    .download-btn-footer:hover{
+        background-color: var(--color_hover2);
     }
     .footer-ctn h3{
         margin-left: 5rem;
         margin-right: 5rem;
 
     }
+
         
 
     
