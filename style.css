@@ -13,7 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     word-wrap: break-word;
-    outline: .5px solid greenyellow;
+    
 }
 html{
     font-size: 10px;
@@ -301,6 +301,95 @@ body{
     margin-right: 30rem;
 
    }
+}
+
+/* LAPTOP */
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px){
+    .hero-tablet{
+        height: 25rem;
+        
+    }
+    .container-btn{
+        flex-direction: row;
+        justify-content: center;
+    }
+   .download-btn-footer{
+    margin-left: 40rem;
+    margin-right: 40rem;
+   }
+
+}
+
+/* DESPTOP */
+
+@media only screen and (min-width: 1600px){
+    .hero-tablet{
+        display: none;
+    }
+    .container-header{
+        display: flex;
+        flex-direction: row;
+    }
+    .container-header h1{
+        font-size: 7rem;
+    }
+    .container-header p{
+        font-size: 2rem;
+    }
+    .hero-left--desktop{
+        display: block;
+        height: 35rem;
+        width: 45rem;
+    }
+    .hero-right--desktop{
+        display: block;
+        height: 35rem;
+        width: 40rem;
+    }
+    .ctn-header-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container-btn{
+        justify-content: center;
+    }
+    figure img{
+        width: 25rem;
+        height: auto;
+    }
+    article h2{
+        font-size: 4rem;
+        margin-left: 70rem;
+        margin-right: 70rem;
+    }
+    article p{
+       margin-left: 70rem;
+       margin-right: 70rem; 
+    }
+    footer{
+        background-image: url(./assets/desktop/image-footer.jpg);
+    }
+    .footer-ctn{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+  
+    .footer-ctn button{
+        width: 30rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .footer-ctn h3{
+        margin-left: 5rem;
+        margin-right: 5rem;
+
+    }
+        
+
+    
+}
 
 
 
@@ -309,7 +398,6 @@ body{
     
         
     
-}
 
 
 
